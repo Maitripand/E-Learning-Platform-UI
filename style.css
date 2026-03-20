@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.course-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 10px;
+}
+
+button {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.video-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.progress-section {
+  padding: 20px;
+}
